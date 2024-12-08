@@ -36,6 +36,13 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+![Screenshot 2024-12-08 203022](https://github.com/user-attachments/assets/ae32c20f-2a78-4445-a72d-9ad1b5244736)
+
+
+![Screenshot 2024-12-08 202536](https://github.com/user-attachments/assets/485d11d0-3769-462f-aa34-0bc153cb661c)
+
+
+
 
 **Procedure**
 
@@ -63,5 +70,10 @@ Developed by:Sarankumar.V   RegisterNumber:24010668
 **RTL Schematic**
 
 **Output/TIMING Waveform**
+![Screenshot 2024-12-05 203433](https://github.com/user-attachments/assets/8c2e8f86-b87b-426b-97d4-b246172a5c08)
+
+
+![Screenshot 2024-12-05 204648](https://github.com/user-attachments/assets/74d77a0c-82f3-47ca-a2a5-f0e54c083bb9)
 
 **Result:**
+Thus the truth table of Half adder_subractor in Quartus || using verilog programming are studied,verified and executed successfully.
