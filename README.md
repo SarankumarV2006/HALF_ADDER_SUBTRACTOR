@@ -65,9 +65,22 @@ Figure -02 HALF Subtractor
 
 Developed by:Sarankumar.V   RegisterNumber:24010668
 
-![Screenshot 2024-12-05 203224](https://github.com/user-attachments/assets/136ebab5-a1ac-496a-8d10-f632b9f825b2)
-
-![Screenshot 2024-12-05 204402](https://github.com/user-attachments/assets/dfd3c468-0d18-4999-bbee-cf107cce7ab1)
+```
+module halfadder (a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum=(a^b);
+assign carry=(a&b);
+endmodule
+```
+```
+module halfsubtractor (a,b,difference,borrow);
+input a,b;
+output difference,borrow;
+assign difference=(a^b);
+assign borrow=(~a&b);
+endmodule
+```
 
 **RTL Schematic**
 
